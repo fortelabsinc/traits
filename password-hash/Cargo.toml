@@ -16,7 +16,7 @@ categories = ["cryptography", "no-std"]
 keywords = ["crypt", "mcf", "password", "pbkdf", "phc"]
 
 [dependencies]
-base64ct = "0.1"
+base64ct = { git = "https://github.com/fortelabsinc/utils", rev="1354e0bcd3d4b818ca9c1c889f9be60978395e37" }
 rand_core = { version = "0.6", optional = true, default-features = false }
 
 [features]

@@ -42,6 +42,11 @@ dependencies = [
 
 [[package]]
 name = "base64ct"
+version = "0.1.0"
+source = "git+https://github.com/fortelabsinc/utils?rev=1354e0bcd3d4b818ca9c1c889f9be60978395e37#1354e0bcd3d4b818ca9c1c889f9be60978395e37"
+
+[[package]]
+name = "base64ct"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e96c6b8c1cac2cfe84b4ea97794c43085b401df66c466e9a863744c0489679a7"
@@ -179,7 +184,7 @@ dependencies = [
 name = "elliptic-curve"
 version = "0.9.0-pre"
 dependencies = [
- "base64ct",
+ "base64ct 0.1.0",
  "digest 0.9.0",
  "ff",
  "generic-array 0.14.4",
@@ -311,7 +316,7 @@ checksum = "624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5"
 name = "password-hash"
 version = "0.1.0"
 dependencies = [
- "base64ct",
+ "base64ct 0.1.0",
  "rand_core",
 ]
 
@@ -321,7 +326,7 @@ version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c8f486f758a686804c80ab239829095260ecbe46e5226e00c0b1339e76a9babc"
 dependencies = [
- "base64ct",
+ "base64ct 0.1.1",
  "der",
  "zeroize",
 ]

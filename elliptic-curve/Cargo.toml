@@ -15,7 +15,7 @@ categories = ["cryptography", "no-std"]
 keywords   = ["crypto", "ecc", "elliptic", "weierstrass"]
 
 [dependencies]
-base64ct = { version = "0.1", optional = true, default-features = false }
+base64ct = { git = "https://github.com/fortelabsinc/utils", rev="1354e0bcd3d4b818ca9c1c889f9be60978395e37", optional = true, default-features = false }
 digest = { version = "0.9", optional = true }
 ff = { version = "0.9", optional = true, default-features = false }
 group = { version = "0.9", optional = true, default-features = false }
